@@ -1,0 +1,12 @@
+package sample;
+
+import lib.Input;
+
+public class Sample08_06 {
+
+  public static void main(String[] args) {
+    int a = Input.getInt();
+    int n = a % 2 == 0 ? 100 : 0; // aが2の倍数なら100、そうでなければ0
+    System.out.println("n=" + n);
+  }
+}
